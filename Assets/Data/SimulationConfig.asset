@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7caf062001b8c34da07ccbad6b6346a, type: 3}
+  m_Name: SimulationConfig
+  m_EditorClassIdentifier: 
+  roadsterCsv: {fileID: 4900000, guid: ce83b50056c33924cb2832fd39b27f51, type: 3}
+  daysPerSecond: 100
+  kmPerUnit: 1000000
+  tailLength: 20
+  enableInterpolatedTail: 1
+  enableInterpolation: 1
+  interpolationGapDays: 0
+  positionCalculationMode: 1
+  showInterpolatedHudTime: 1
+  startDateUtcIso: 2018-02-07 03:00:00Z
+  endDateUtcIso: 2088-03-12 22:58:51Z
